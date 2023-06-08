@@ -1,70 +1,177 @@
-# Getting Started with Create React App
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <h3 align="center">Todos App</h3>
+
+  <p align="center">
+    <a href="#">View Demo</a>
+    ·
+    <a href="#">Report Bug</a>
+    ·
+    <a href="#">Request Feature</a>
+  </p>
+</div>
+
+## Table of Contents
+
+<details>
+  <summary>Table of Contents</summary>
+
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+    </li>
+    <li>
+      <a href="#features">Features</a>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#setup-env-example">Setup .env example</a></li>
+      </ul>
+    </li>
+    <li><a href="#screenshots">Screenshots</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#developer">Contact</a></li>
+    <li><a href="#license">License</a></li>
+  </ol>
+</details>
+<br/>
+
+## About the Project
+
+Todos App allows you to manage your tasks efficiently by providing basic CRUD (Create, Read, Update, Delete) operations. With this API, you can easily create, retrieve, update, and delete tasks in your ToDo list application.
+
+<br/>
+
+## Features
+
+- Authentication
+  - (Login, Register)
+- C.R.U.D
+  - Create Todos
+  - Read Todos
+  - Update Todos
+  - Delete Todos
+
+## Getting Started
+
+### Prerequisites
+
+Before going to the installation stage there are some software that must be installed first.
+
+- [Node JS](https://nodejs.org/en/download/)
+
+## Backend
+
+- [Backend Repository](https://github.com/bayuaria33/backend-todos)
+
+## Link APP
+
+- [Website](#)
+
+## Tech Stack
+
+This web app was built with: ReactJS, ExpressJS, PostgreSQL, React, NodeJS, Tailwind CSS, DaisyUI, Axios, JWT
+
+<br></br>
+
+## Demo User Account
+
+<details>
+<summary>Show Demo Account</summary>
+
+**Email** : ahmad123@email.id
+
+**Password** : 123
+
+</details>
+
+<br></br>
+
+## Installation
+
+Clone the project
+
+````bash
+  git clone #
+
+Go to the project directory
+
+```bash
+  cd todos-frontend
+````
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm start
+```
+
+## ENV
+
+```
+REACT_APP_API_URL=
+```
+
+## Screenshots
+
+<details>
+    <summary>Show Screenshots</summary>
+
+| Login Screen                        | Register Screen                           |
+| ----------------------------------- | ----------------------------------------- |
+| ![Login](/screenshots/ss_login.png) | ![Register](/screenshots/ss_register.png) |
+
+| Todo Lists Page                     | Complete Todos                           |
+| ----------------------------------- | ---------------------------------------- |
+| ![Detail](/screenshots/ss_list.png) | ![Recipes](/screenshots/ss_complete.png) |
+
+| Add Recipe                      | Edit Recipe                       |
+| ------------------------------- | --------------------------------- |
+| ![Add](/screenshots/ss_add.png) | ![Edit](/screenshots/ss_edit.png) |
+
+</details>
+
+<br></br>
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## Developer
+
+<center>
+  <table>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/bayuaria33">
+          <img width="100" src="https://github.com/bayuaria33.png" alt="Bayu"><br/>
+          <sub><b>Ariabayu Prayogo Kamilain</b></sub> <br/>
+          <sub>Bayuaria33@gmail.com</sub> <br/>
+        </a>
+      </td>
+  </table>
+</center>
+
+## License
+
+Distributed under the [MIT](/LICENSE) License.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
